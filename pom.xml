@@ -9,6 +9,7 @@
     <modules>
         <module>core-java-concurrency-basic</module>
         <module>persistence-modules/spring-data-solr</module>
+        <module>core-java-io</module>
 
     </modules>
     <properties>
