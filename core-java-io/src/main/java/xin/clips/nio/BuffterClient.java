@@ -40,7 +40,7 @@ public class BuffterClient {
     public static void main(String[] args) throws IOException {
         RandomAccessFile aFile = new RandomAccessFile("data.txt", "rw");
         FileChannel inChannel = aFile.getChannel();
-        ByteBuffer buf = ByteBuffer.allocate(48);
+        ByteBuffer buf = ByteBuffer.allocate(100);
         int bytesRead = inChannel.read(buf); //从Buffer中读
         while (bytesRead != -1) {
             buf.flip(); //将写模式变成读模式,pos被重置为0
