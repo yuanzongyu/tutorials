@@ -10,6 +10,12 @@
         <module>core-java-concurrency-basic</module>
         <module>persistence-modules/spring-data-solr</module>
         <module>core-java-io</module>
+        <module>core-netty</module>
+        <module>core-jvm</module>
+        <module>core-annotation</module>
+
+
+        
 
     </modules>
     <properties>
